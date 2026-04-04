@@ -1,0 +1,3 @@
+[submodule "prime/Linear Regression/HousePricePrediction/Mine"]
+	path = prime/Linear Regression/HousePricePrediction/Mine
+	url = https://github.com/KARTHIKAKRISHNA123/house-price-prediction.git

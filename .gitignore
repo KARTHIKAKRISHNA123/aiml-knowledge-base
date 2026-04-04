@@ -1,0 +1,5 @@
+anaconda_projects/
+installation/
+**/.ipynb_checkpoints/
+**/.virtual_documents/
+**/anaconda_projects/ 
