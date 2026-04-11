@@ -1,3 +1,6 @@
 [submodule "prime/Linear Regression/HousePricePrediction/Mine"]
 	path = prime/Linear Regression/HousePricePrediction/Mine
-	url = https://github.com/KARTHIKAKRISHNA123/house-price-prediction.git
+	url = https://github.com/KARTHIKAKRISHNA123/House_Price_Prediction.git
+[submodule "prime/Lasso and Logistic Regression/Mine"]
+	path = prime/Lasso and Logistic Regression/Mine
+	url = https://github.com/KARTHIKAKRISHNA123/Employee_Turnover_Prediction.git
