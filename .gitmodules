@@ -7,5 +7,5 @@
     url = https://github.com/KARTHIKAKRISHNA123/Employee_Turnover_Prediction.git
 
 [submodule "prime/Supervised ML/Project Common to Log, Naive, Knn - Iris/Mine"]
-    path = prime/Supervised ML/Project Common to Log, Naive, Knn - Iris/Mine
-    url = https://github.com/KARTHIKAKRISHNA123/Iris-flower-predictor.git
+	path = prime/Supervised ML/Project Common to Log, Naive, Knn - Iris/Mine
+	url = https://github.com/KARTHIKAKRISHNA123/Iris-flower-predictor.git
