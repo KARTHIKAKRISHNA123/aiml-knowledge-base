@@ -9,3 +9,6 @@
 [submodule "prime/Supervised ML/Project Common to Log, Naive, Knn - Iris/Mine"]
 	path = prime/Supervised ML/Project Common to Log, Naive, Knn - Iris/Mine
 	url = https://github.com/KARTHIKAKRISHNA123/Iris-flower-predictor.git
+[submodule "prime/CreditWise_Loan_System/mine"]
+	path = prime/CreditWise_Loan_System/mine
+	url = https://github.com/KARTHIKAKRISHNA123/Credit_Wise_Loan_System.git
