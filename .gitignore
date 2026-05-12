@@ -3,3 +3,35 @@ installation/
 **/.ipynb_checkpoints/
 **/.virtual_documents/
 **/anaconda_projects/ 
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.log
+*.bak
+*.tmp
+*.swp
+# virtual envs
+env/
+venv/
+.venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+
+# ML artifacts / checkpoints
+*.h5
+*.pt
+models/
+checkpoints/
+
+# local data (tweak to your needs)
+data/
+*/scraped_data/
+*/cleaned_data/
