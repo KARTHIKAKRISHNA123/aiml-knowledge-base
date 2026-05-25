@@ -12,3 +12,6 @@
 [submodule "prime/CreditWise_Loan_System/mine"]
 	path = prime/CreditWise_Loan_System/mine
 	url = https://github.com/KARTHIKAKRISHNA123/Credit_Wise_Loan_System.git
+[submodule "Intentify"]
+	path = Intentify
+	url = https://github.com/KARTHIKAKRISHNA123/Intentify.git
