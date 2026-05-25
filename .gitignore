@@ -35,3 +35,6 @@ checkpoints/
 data/
 */scraped_data/
 */cleaned_data/
+
+~$*
+*.tmp

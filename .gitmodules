@@ -2,16 +2,18 @@
     path = prime/Supervised ML/Linear Regression/HousePricePrediction/Mine
     url = https://github.com/KARTHIKAKRISHNA123/House_Price_Prediction.git
 
-[submodule "prime/Supervised ML/Lasso and Logistic Regression/Mine"]
-	path = prime/Supervised ML/2.Lasso and 3.Logistic Regression/Mine
-    url = https://github.com/KARTHIKAKRISHNA123/Employee_Turnover_Prediction.git
-
+[submodule "prime/Supervised ML/2.Lasso and 3.Logistic Regression/Mine"]
+    path = prime/Supervised ML/2.Lasso and 3.Logistic Regression/Mine
+    url = https://github.com/KARTHIKAKRISHNA123/RetentionRadar.git
 [submodule "prime/Supervised ML/Project Common to Log, Naive, Knn - Iris/Mine"]
 	path = prime/Supervised ML/Project Common to Log, Naive, Knn - Iris/Mine
-	url = https://github.com/KARTHIKAKRISHNA123/Iris-flower-predictor.git
+	url = https://github.com/KARTHIKAKRISHNA123/PetalPulse.git
 [submodule "prime/CreditWise_Loan_System/mine"]
 	path = prime/CreditWise_Loan_System/mine
-	url = https://github.com/KARTHIKAKRISHNA123/Credit_Wise_Loan_System.git
+	url = https://github.com/KARTHIKAKRISHNA123/LendSure_AI.git
 [submodule "Intentify"]
 	path = Intentify
+	url = https://github.com/KARTHIKAKRISHNA123/Intentify.git
+[submodule "prime/Supervised ML/6.Decision Trees/Mine"]
+	path = prime/Supervised ML/6.Decision Trees/Mine
 	url = https://github.com/KARTHIKAKRISHNA123/Intentify.git
