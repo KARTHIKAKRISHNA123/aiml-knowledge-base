@@ -11,9 +11,6 @@
 [submodule "prime/CreditWise_Loan_System/mine"]
 	path = prime/CreditWise_Loan_System/mine
 	url = https://github.com/KARTHIKAKRISHNA123/LendSure_AI.git
-[submodule "Intentify"]
-	path = Intentify
-	url = https://github.com/KARTHIKAKRISHNA123/Intentify.git
 [submodule "prime/Supervised ML/6.Decision Trees/Mine"]
 	path = prime/Supervised ML/6.Decision Trees/Mine
 	url = https://github.com/KARTHIKAKRISHNA123/Intentify.git
