@@ -38,3 +38,22 @@ data/
 
 ~$*
 *.tmp
+
+# Anaconda Navigator auto-generated
+anaconda_projects/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Model artifacts (keep .pkl tracked since they're part of projects)
+# *.pkl
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,16 +1,19 @@
-[submodule "prime/Supervised ML/Linear Regression/HousePricePrediction/Mine"]
-    path = prime/Supervised ML/Linear Regression/HousePricePrediction/Mine
-    url = https://github.com/KARTHIKAKRISHNA123/House_Price_Prediction.git
+﻿[submodule "projects/house_price_predictor"]
+	path = projects/house_price_predictor
+	url = https://github.com/KARTHIKAKRISHNA123/House_Price_Prediction.git
 
-[submodule "prime/Supervised ML/2.Lasso and 3.Logistic Regression/Mine"]
-    path = prime/Supervised ML/2.Lasso and 3.Logistic Regression/Mine
-    url = https://github.com/KARTHIKAKRISHNA123/RetentionRadar.git
-[submodule "prime/Supervised ML/Project Common to Log, Naive, Knn - Iris/Mine"]
-	path = prime/Supervised ML/Project Common to Log, Naive, Knn - Iris/Mine
+[submodule "projects/retention_radar"]
+	path = projects/retention_radar
+	url = https://github.com/KARTHIKAKRISHNA123/RetentionRadar.git
+
+[submodule "projects/petal_pulse"]
+	path = projects/petal_pulse
 	url = https://github.com/KARTHIKAKRISHNA123/PetalPulse.git
-[submodule "prime/CreditWise_Loan_System/mine"]
-	path = prime/CreditWise_Loan_System/mine
+
+[submodule "projects/lend_sure_ai"]
+	path = projects/lend_sure_ai
 	url = https://github.com/KARTHIKAKRISHNA123/LendSure_AI.git
-[submodule "prime/Supervised ML/6.Decision Trees/Mine"]
-	path = prime/Supervised ML/6.Decision Trees/Mine
+
+[submodule "projects/intentify"]
+	path = projects/intentify
 	url = https://github.com/KARTHIKAKRISHNA123/Intentify.git
