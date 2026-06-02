@@ -17,3 +17,6 @@
 [submodule "projects/intentify"]
 	path = projects/intentify
 	url = https://github.com/KARTHIKAKRISHNA123/Intentify.git
+[submodule "projects/vitacheck-ml"]
+	path = projects/vitacheck-ml
+	url = https://github.com/KARTHIKAKRISHNA123/vitacheck-ml.git
