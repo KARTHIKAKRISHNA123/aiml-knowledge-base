@@ -1,22 +1,23 @@
 [submodule "projects/house_price_predictor"]
 	path = projects/house_price_predictor
-	url = https://github.com/KARTHIKAKRISHNA123/House_Price_Prediction.git
+	url = https://github.com/KARTHIKAKRISHNA123/dwello.git
 
 [submodule "projects/retention_radar"]
 	path = projects/retention_radar
-	url = https://github.com/KARTHIKAKRISHNA123/RetentionRadar.git
+	url = https://github.com/KARTHIKAKRISHNA123/retentionRadar.git
 
 [submodule "projects/petal_pulse"]
 	path = projects/petal_pulse
-	url = https://github.com/KARTHIKAKRISHNA123/PetalPulse.git
+	url = https://github.com/KARTHIKAKRISHNA123/petalPulse.git
 
 [submodule "projects/lend_sure_ai"]
 	path = projects/lend_sure_ai
-	url = https://github.com/KARTHIKAKRISHNA123/LendSure_AI.git
+	url = https://github.com/KARTHIKAKRISHNA123/lendSure_AI.git
 
 [submodule "projects/intentify"]
 	path = projects/intentify
-	url = https://github.com/KARTHIKAKRISHNA123/Intentify.git
+	url = https://github.com/KARTHIKAKRISHNA123/intentify.git
+
 [submodule "projects/vitacheck-ml"]
 	path = projects/vitacheck-ml
 	url = https://github.com/KARTHIKAKRISHNA123/vitacheck-ml.git
