@@ -1,4 +1,4 @@
-﻿[submodule "projects/house_price_predictor"]
+[submodule "projects/house_price_predictor"]
 	path = projects/house_price_predictor
 	url = https://github.com/KARTHIKAKRISHNA123/House_Price_Prediction.git
 
