@@ -21,3 +21,6 @@
 [submodule "projects/vitacheck-ml"]
 	path = projects/vitacheck-ml
 	url = https://github.com/KARTHIKAKRISHNA123/vitacheck-ml.git
+[submodule "projects/segwise"]
+	path = projects/segwise
+	url = https://github.com/KARTHIKAKRISHNA123/seg-wise.git
