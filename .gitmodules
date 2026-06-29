@@ -27,3 +27,6 @@
 [submodule "projects/pomology-ai"]
 	path = projects/pomology-ai
 	url = https://github.com/KARTHIKAKRISHNA123/pomology-ai.git
+[submodule "projects/gridsync"]
+	path = projects/gridsync
+	url = https://github.com/KARTHIKAKRISHNA123/grid-sync.git
