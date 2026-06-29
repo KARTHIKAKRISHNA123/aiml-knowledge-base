@@ -24,3 +24,6 @@
 [submodule "projects/segwise"]
 	path = projects/segwise
 	url = https://github.com/KARTHIKAKRISHNA123/seg-wise.git
+[submodule "projects/pomology-ai"]
+	path = projects/pomology-ai
+	url = https://github.com/KARTHIKAKRISHNA123/pomology-ai.git
