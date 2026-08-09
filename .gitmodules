@@ -33,3 +33,6 @@
 [submodule "projects/pixel_sense"]
 	path = projects/pixel_sense
 	url = https://github.com/KARTHIKAKRISHNA123/pixel-sense.git
+[submodule "projects/vibe-check-ai"]
+	path = projects/vibe-check-ai
+	url = https://github.com/KARTHIKAKRISHNA123/VibeCheckAI.git
