@@ -36,3 +36,6 @@
 [submodule "projects/vibe-check-ai"]
 	path = projects/vibe-check-ai
 	url = https://github.com/KARTHIKAKRISHNA123/VibeCheckAI.git
+[submodule "projects/flap_mind"]
+	path = projects/flap_mind
+	url = https://github.com/KARTHIKAKRISHNA123/flap-mind.git
