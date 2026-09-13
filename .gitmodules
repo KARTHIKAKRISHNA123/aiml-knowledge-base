@@ -39,3 +39,6 @@
 [submodule "projects/flap_mind"]
 	path = projects/flap_mind
 	url = https://github.com/KARTHIKAKRISHNA123/flap-mind.git
+[submodule "projects/brief-sync"]
+	path = projects/brief-sync
+	url = https://github.com/KARTHIKAKRISHNA123/brief-sync.git
