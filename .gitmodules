@@ -42,3 +42,6 @@
 [submodule "projects/brief-sync"]
 	path = projects/brief-sync
 	url = https://github.com/KARTHIKAKRISHNA123/brief-sync.git
+[submodule "projects/paper_sage"]
+	path = projects/paper_sage
+	url = https://github.com/KARTHIKAKRISHNA123/paper-sage.git
