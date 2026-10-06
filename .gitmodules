@@ -45,3 +45,6 @@
 [submodule "projects/paper_sage"]
 	path = projects/paper_sage
 	url = https://github.com/KARTHIKAKRISHNA123/paper-sage.git
+[submodule "projects/fitmentor-ai"]
+	path = projects/fitmentor-ai
+	url = https://github.com/KARTHIKAKRISHNA123/fitmentor-ai.git
