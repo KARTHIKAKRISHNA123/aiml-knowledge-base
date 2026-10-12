@@ -1,0 +1,89 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ==============================
+# Virtual Environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Flask
+# ==============================
+instance/
+.webassets-cache/
+
+# ==============================
+# Logs and Databases
+# ==============================
+*.log
+logs/
+*.sqlite3
+*.db
+
+# ==============================
+# Testing and Coverage
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==============================
+# Type Checking and Linting
+# ==============================
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDEs and Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Build and Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# ==============================
+# Local Uploads and Generated Files
+# ==============================
+uploads/
+instance/
