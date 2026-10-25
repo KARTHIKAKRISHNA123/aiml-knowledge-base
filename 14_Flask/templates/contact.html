@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+    
+{% block title %}Contact{% endblock %}
+
+{% block content %}
+    <h1>Hello From KK</h1>
+    <p> Welcome to contact.html</p>
+    <p> support timings are from 9:00 AM to 5:00 PM</p>
+    {% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+{% endblock %}
+
+
+{% block footer %}
+    <p>Rendered from contact.html, designed by KK while learning Flask.</p>
+{% endblock %}

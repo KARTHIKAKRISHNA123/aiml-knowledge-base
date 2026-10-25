@@ -1,18 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello From KK</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
-    <!-- <script src="static/app.js"></script> -->
-</head>
-<body>
-    <h1>Hello From KK</h1>
-    <p>Welcome to my KK's website! This is a simple HTML template helps me to static templates in Flask.</p>
-    <footer>
-        <p>Rendered From Index.html Designed By KK while learning flask</p> 
-    </footer>
+<!--
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello From KK</title>
     
-</body>
-</html>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+        <script src="{{ url_for('static', filename='app.js') }}"></script>
+    </head>
+    <body>
+        <h1>Hello From KK</h1>
+    
+        <p>Query Parameter: {{ query }}</p>
+        <p>Name Parameter: {{ name }}</p>
+        <p>Subject: {{ subject }}</p>
+    
+        <p>
+            Welcome to my KK's website! This is a simple HTML template
+            that helps me render templates in Flask.
+        </p>
+    
+        <footer>
+            <p>Rendered from index.html, designed by KK while learning Flask.</p>
+        </footer>
+    </body>
+    </html>
+    -->
+    
+    {% extends "base.html" %}
+    
+    {% block title %}Home{% endblock %}
+    
+    {% block content %}
+        <h1>Hello From KK</h1>
+        <p> Welcome to index.html</p>
+        <p> Contact us at: <a href="/contact">Contact</a> </p>
+        
+    {% endblock %}
+
+
+    {% block footer %}
+        <p>Rendered from index.html, designed by KK while learning Flask.</p>
+    {% endblock %}
