@@ -48,3 +48,6 @@
 [submodule "projects/fitmentor-ai"]
 	path = projects/fitmentor-ai
 	url = https://github.com/KARTHIKAKRISHNA123/fitmentor-ai.git
+[submodule "projects/face-forge"]
+	path = projects/face-forge
+	url = https://github.com/KARTHIKAKRISHNA123/face-forge.git
