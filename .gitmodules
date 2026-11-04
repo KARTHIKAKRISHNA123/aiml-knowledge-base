@@ -54,3 +54,6 @@
 [submodule "projects/agent-verse"]
 	path = projects/agent-verse
 	url = https://github.com/KARTHIKAKRISHNA123/agent-verse.git
+[submodule "projects/legacy-mind"]
+	path = projects/legacy-mind
+	url = https://github.com/KARTHIKAKRISHNA123/legacy-mind.git
