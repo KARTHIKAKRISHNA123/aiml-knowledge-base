@@ -54,3 +54,6 @@
 [submodule "projects/legacy-mind"]
 	path = projects/legacy-mind
 	url = https://github.com/KARTHIKAKRISHNA123/legacy-mind.git
+[submodule "projects/pixel-sense"]
+	path = projects/pixel-sense
+	url = https://github.com/KARTHIKAKRISHNA123/pixel-sense.git

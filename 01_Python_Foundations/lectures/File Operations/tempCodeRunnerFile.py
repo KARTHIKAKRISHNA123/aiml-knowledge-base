@@ -1,5 +1,0 @@
-data = f.read()
-# data_in_first_line = f.readline()
-# print(data)
-# print(data_in_first_line)
-# print(type(data))

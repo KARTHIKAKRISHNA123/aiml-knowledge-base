@@ -57,3 +57,12 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# local-only, never published
+_local/
+Claude outputs/
+**/Claude outputs/
+.claude/
+tempCodeRunnerFile.py
+resources/Roadmaps_By_Sreemanti/
+03_Data_Engineering/sql/SQL Notes/
