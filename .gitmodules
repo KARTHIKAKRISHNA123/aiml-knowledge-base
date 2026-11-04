@@ -51,3 +51,6 @@
 [submodule "projects/face-forge"]
 	path = projects/face-forge
 	url = https://github.com/KARTHIKAKRISHNA123/face-forge.git
+[submodule "projects/agent-verse"]
+	path = projects/agent-verse
+	url = https://github.com/KARTHIKAKRISHNA123/agent-verse.git
