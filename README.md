@@ -310,6 +310,7 @@ aiml-knowledge-base/
 ├── 12_LLM_APIs/                LLM API notebook
 ├── 13_Flask/                   Flask app: routes, templates, static
 ├── 15_GANs/                    vanilla GAN, DCGAN
+├── course_material/          course slides and papers, by topic
 ├── projects/                   Git submodules, one per project
 ├── .gitmodules                 submodule registry
 ├── requirements.txt            pinned shared environment
