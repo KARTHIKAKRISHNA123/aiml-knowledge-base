@@ -34,7 +34,7 @@ Learning machine learning from lectures leaves notes, notebooks, assignments and
 
 ## Solution Overview
 
-This parent repository organises everything into numbered learning tracks (`01_` to `16_`). Every finished project lives in its **own repository** and is linked back here as a Git submodule under `projects/`, so a concept notebook and the deployed app that applies it are one clone apart. Each project keeps its own history, README and deployment, while this repository pins the exact commit of each one.
+This parent repository organises everything into numbered learning tracks (`01_` to `15_`). Every finished project lives in its **own repository** and is linked back here as a Git submodule under `projects/`, so a concept notebook and the deployed app that applies it are one clone apart. Each project keeps its own history, README and deployment, while this repository pins the exact commit of each one.
 
 ## Key Features
 
@@ -58,8 +58,8 @@ graph TD
   subgraph LEARN["Learning Tracks - numbered folders"]
     L1["01 to 03: Python, Maths, Data Engineering"]
     L2["04 to 05: Supervised and Unsupervised ML"]
-    L3["06 to 09: Deep Learning, NLP, Vision, GenAI, RL"]
-    L4["10 to 15: Pydantic, Git, LLM APIs, Flask, GANs"]
+    L3["06 to 10: Deep Learning, NLP, Vision, GenAI, RL"]
+    L4["11 to 15: Tools, LLM APIs, Flask, GANs"]
   end
   HUB["aiml-knowledge-base - parent repository"]
   subgraph PROJ["projects - Git submodules"]
@@ -118,11 +118,10 @@ flowchart LR
 | `07_NLP` | Sequence models | RNN for sentiment analysis, Word2Vec notes |
 | `08_Computer_Vision` | Convolutional networks | CNN on CIFAR-10, popular CNN architectures |
 | `09_Generative_AI` | Transformers | Text summariser notebook |
-| `09_Reinforcement_Learning` | Reinforcement learning | Q-Learning and SARSA; the deep Q-network agent is in `projects/flap_mind` |
-| `10_Pydantic` | Data validation | Pydantic notebook |
-| `11_Github` | Version control | Git and GitHub task and cheat sheet |
-| `13_Open_AI` | LLM APIs | Calling a hosted LLM from Python; the notebook uses the Google Gen AI SDK |
-| `14_Flask` | Web basics | Flask app with routes, templates and static assets |
+| `10_Reinforcement_Learning` | Reinforcement learning | Q-Learning and SARSA; the deep Q-network agent is in `projects/flap_mind` |
+| `11_Tools_and_Setup` | Tooling | Pydantic notebook, Git and GitHub task and cheat sheet |
+| `12_LLM_APIs` | LLM APIs | Calling a hosted LLM from Python; the notebook uses the Google Gen AI SDK |
+| `13_Flask` | Web basics | Flask app with routes, templates and static assets |
 | `15_GANs` | Generative adversarial networks | Vanilla GAN and DCGAN notebooks; the CelebA project is `projects/face-forge` |
 
 Retrieval-augmented generation is covered by the `projects/paper_sage` project rather than a notebook folder.
@@ -168,18 +167,18 @@ Each project is a separate repository, pinned here as a submodule.
 | SciPy | 1.15.3 | Core Scientific | Distributions and statistical tests in `02_Maths_For_ML` | Standard scientific algorithms | `stats` distributions, optimisation |
 | Beautiful Soup 4 | 4.12.3 | Scraping | HTML parsing in `03_Data_Engineering/data_collection` | Forgiving parser for scraped pages | HTML tree navigation, text extraction |
 | Requests | 2.32.3 | HTTP | Fetching pages for scraping | Simple HTTP client | GET requests, response handling |
-| Pydantic | 2.10.3 | Validation | `10_Pydantic` notebook | Typed, validated data models | `BaseModel`, field validation |
+| Pydantic | 2.10.3 | Validation | `11_Tools_and_Setup/Pydantic` notebook | Typed, validated data models | `BaseModel`, field validation |
 | XGBoost | 3.2.0 | Machine Learning | Gradient boosting in `04_Supervised_ML/09_Gradient_AdaBoosting` | Strong gradient boosting implementation | `XGBClassifier`, boosting parameters |
-| Flask | 3.1.0 | Web Framework | `14_Flask/main.py` and Legacy Mind | Minimal framework for learning routing | Routes, templates, static files, form handling |
+| Flask | 3.1.0 | Web Framework | `13_Flask/main.py` and Legacy Mind | Minimal framework for learning routing | Routes, templates, static files, form handling |
 | Streamlit | 1.45.1 | Web Framework | Interactive front ends for several projects, including Dwello, LendSure AI, SegWise and TubeLens | Python-only apps with fast iteration | Widgets, caching, layout, deployment on Community Cloud |
 | httpx | 0.26.0 | HTTP | HTTP client for API calls | Sync and async API | Client requests |
 | torchvision | — | Deep Learning | CIFAR-10 data loading in the CNN work | Datasets and transforms that match PyTorch | Datasets, transforms |
 | Gymnasium | — | Reinforcement Learning | Environments for Q-Learning and SARSA | Standard RL environment API | Environment loop, spaces |
 | KneeLocator (kneed) | — | Machine Learning | Automatic elbow detection for K in clustering | Removes manual elbow reading | `KneeLocator` |
-| Google Gen AI SDK (google-genai) | — | LLM API | `13_Open_AI` notebook | Direct access to hosted Gemini models | `genai.Client`, content generation |
+| Google Gen AI SDK (google-genai) | — | LLM API | `12_LLM_APIs` notebook | Direct access to hosted Gemini models | `genai.Client`, content generation |
 | Ollama (Python client) | — | LLM API | Local model calls from a notebook | Runs models locally | Chat calls |
 
-`torchvision`, `gymnasium`, `kneed`, `google-genai` and `ollama` are imported by notebooks but are not pinned in the root `requirements.txt`. `09_Reinforcement_Learning/requirements.txt` covers the reinforcement learning notebooks.
+`torchvision`, `gymnasium`, `kneed`, `google-genai` and `ollama` are imported by notebooks but are not pinned in the root `requirements.txt`. `10_Reinforcement_Learning/requirements.txt` covers the reinforcement learning notebooks.
 
 ### Pinned in requirements.txt as the shared environment
 
@@ -306,11 +305,10 @@ aiml-knowledge-base/
 ├── 07_NLP/                     RNN, Word2Vec
 ├── 08_Computer_Vision/         CNN
 ├── 09_Generative_AI/           text summariser
-├── 09_Reinforcement_Learning/  Q-Learning, SARSA
-├── 10_Pydantic/
-├── 11_Github/
-├── 13_Open_AI/                 LLM API notebook
-├── 14_Flask/                   Flask app: routes, templates, static
+├── 10_Reinforcement_Learning/  Q-Learning, SARSA
+├── 11_Tools_and_Setup/         Pydantic, Git and GitHub
+├── 12_LLM_APIs/                LLM API notebook
+├── 13_Flask/                   Flask app: routes, templates, static
 ├── 15_GANs/                    vanilla GAN, DCGAN
 ├── projects/                   Git submodules, one per project
 ├── .gitmodules                 submodule registry
@@ -362,8 +360,8 @@ Only the LLM API notebook needs a key. Keys are read from the environment and ne
 
 | Variable | Used by | Purpose |
 |---|---|---|
-| `GEMINI_API_KEY` | `13_Open_AI/grok_Ai.ipynb` | Google Gen AI SDK client |
-| `GEMINI_API_KEY2` | `13_Open_AI/grok_Ai.ipynb` | Second key used by one section of the notebook |
+| `GEMINI_API_KEY` | `12_LLM_APIs/grok_Ai.ipynb` | Google Gen AI SDK client |
+| `GEMINI_API_KEY2` | `12_LLM_APIs/grok_Ai.ipynb` | Second key used by one section of the notebook |
 
 Each project documents its own variables in its README.
 
@@ -390,7 +388,7 @@ git submodule status
 | `projects/` folders are empty | Cloned without `--recurse-submodules` | `git submodule update --init --recursive` |
 | Clone is slow or very large | Full history includes large study documents | Use the shallow clone command above |
 | Notebook cannot find the `AIML` kernel | Kernel not registered | Run the `ipykernel install` command above |
-| `ModuleNotFoundError` for `gymnasium`, `kneed`, `google-genai` or `torchvision` | Not pinned in the root `requirements.txt` | `pip install` the package, or use `09_Reinforcement_Learning/requirements.txt` for the RL notebooks |
+| `ModuleNotFoundError` for `gymnasium`, `kneed`, `google-genai` or `torchvision` | Not pinned in the root `requirements.txt` | `pip install` the package, or use `10_Reinforcement_Learning/requirements.txt` for the RL notebooks |
 | Gemini notebook raises `GEMINI_API_KEY is not set` | Key not in the environment | Export the variable or add it to a local `.env` |
 
 ## FAQ
